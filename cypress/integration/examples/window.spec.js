@@ -25,11 +25,6 @@ context('Window', () => {
       cy.wait(200)
     })
 
-    it('open in mac -15', () => {
-      cy.viewport(375, 812)
-      cy.viewport('iphone-x')
-      cy.screenshot()
-      cy.wait(200)
-    })
+    
  })
 
